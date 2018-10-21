@@ -1,7 +1,9 @@
 # Yo Zekie and Inigo! Welcome to our First Project
 
 Don't **fret** because we have room for error
+
 Just Familiarize with github, git, java and everything we will be doing as
+
 a team here in this space
 
 * Shoot yo ideas

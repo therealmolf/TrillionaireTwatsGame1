@@ -17,7 +17,8 @@ a team here in this space
 * Create functions/methods that could make the code less repetitive
 * add comment
 * change variables to readable variables (cover the lines of code as a test and see if u still understand the vars)
-* reduce string literals and create utility classs
+* reduce string literals and create utility class
+* remove redundant variables (will i be using it more than once? does it help with the logical intent)
 
 # So it begins sir
 

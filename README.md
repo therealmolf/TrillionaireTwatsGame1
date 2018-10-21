@@ -10,6 +10,14 @@ a team here in this space
 * No idea is wrong or right
 * No hate
 
+
+# For checking code
+
+* Align what needs to be aligned in the body of code
+* Create functions/methods that could make the code less repetitive
+* add comment
+* change variables to readable variables (cover the lines of code as a test and see if u still understand the vars)
+
 # So it begins sir
 
 [Here's the link to our Google drive](https://drive.google.com/drive/folders/1hTCSSdJfB1TcPnRYCXdqujtT4DRE19St?usp=sharing)

@@ -9,7 +9,7 @@ import java.awt.Canvas;
 
 public class Window extends Canvas{
 
-    private static final long serialVersionUID = 1246506276288631690L;
+    //private static final long serialVersionUID = 1246506276288631690L;
 
     public Window(int height, int width, String title, Game game){
         JFrame frame = new JFrame(title);

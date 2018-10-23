@@ -1,8 +1,9 @@
 package TTGameFiles;
 
 
-import javax.swing.*;
-import java.awt.*;
+import javax.swing.JFrame;
+import java.awt.Dimension;
+import java.awt.Canvas;
 
 
 
@@ -24,6 +25,8 @@ public class Window extends Canvas{
 //this just makes the frame open in the middle of the screen
         frame.setLocationRelativeTo(null);
         frame.add(game);
+
+//frame visibility
         frame.setVisible(true);
         game.start();
 

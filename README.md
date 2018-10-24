@@ -24,7 +24,5 @@ a team here in this space
 
 [Here's the link to our Google drive](https://drive.google.com/drive/folders/1hTCSSdJfB1TcPnRYCXdqujtT4DRE19St?usp=sharing)
 
-<<<<<<< HEAD
-Peeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeen
+Peeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeen
 
->>>>>>> d2e38204df7087ee9d43c5b2356d5bd8024ec107

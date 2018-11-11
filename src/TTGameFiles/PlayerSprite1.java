@@ -13,26 +13,26 @@ import javax.swing.*;
 
 // first class for creating the avatar
 public class PlayerSprite1 /*implements SolidObject*/ {
-    
+
     /*
     private Image avatar;
     private Image avatar1;
     private Image avatar2;
     */
-    
+
     private int x,y;
     private int playerID;
-    
+
     //private ImageIcon image, image2;
-    
+
     private int points;
-    
-        
+
+
     public PlayerSprite1(int x, int y){
         this.x = x;
         this.y = y;
         points = 0;
-        
+
         /*
         try {
             loadPic();
@@ -42,12 +42,12 @@ public class PlayerSprite1 /*implements SolidObject*/ {
         */
     }
         /*
-    
+
     public void loadPic() throws IOException{
-        
+
             avatar1 = new ImageIcon(getClass().getResource("Avatars-02.png")).getImage();
             avatar2 = new ImageIcon(getClass().getResource("Avatars-03.png")).getImage();
-        
+
         }
 
         */
@@ -60,7 +60,7 @@ public class PlayerSprite1 /*implements SolidObject*/ {
             g2d.drawImage(avatar, x, y, null);
 */
         }
-        
+
         if(playerID == 2){
             /*
             avatar = avatar2;
@@ -68,7 +68,7 @@ public class PlayerSprite1 /*implements SolidObject*/ {
 */
         }
     }
-        
+
     /*
     public void moveH(double n) {
         x += n;
@@ -77,26 +77,26 @@ public class PlayerSprite1 /*implements SolidObject*/ {
     public void moveV(double n) {
         y += n;
     }
-    
+
     public void setX(double n) {
         x = (int) n;
     }
-    
+
     public void setY(double n) {
         y = (int) n;
     }
-    
+
 
     @Override
     public int getX() {
         return x;
     }
-    
+
     @Override
     public int getY() {
         return y;
     }
-  
+
     @Override
     public Rectangle getBorder() {
         int tempX = (int) x;
@@ -105,12 +105,12 @@ public class PlayerSprite1 /*implements SolidObject*/ {
     }
     public int getPoints(){
         return points;
-        
+
     }
     public void addPoint(){
         points += 1;
     }
-    
+
 */
-    
+
 }

@@ -6,7 +6,7 @@ import ttc.game.*;
 import java.awt.*;
 import java.awt.geom.*;
 public class Maze implements SolidObject {
-    
+
     private int x;
     private int y;
     private int w;
@@ -18,7 +18,7 @@ public class Maze implements SolidObject {
         this.w = w;
         this.h = h;
     }
-    
+
     @Override
     public void drawObject(Graphics2D g2d) {
         Rectangle2D.Double maz = new Rectangle2D.Double(x, y, w, h);
@@ -39,5 +39,5 @@ public class Maze implements SolidObject {
     public Rectangle getBorder() {
         return (new Rectangle(x, y, w, h));
     }
-    
+
 }

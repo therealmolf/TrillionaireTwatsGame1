@@ -1,7 +1,7 @@
 
 // This is the player class that holds all the attributes of a player avatar
 
-import ttc.game.*;
+//import ttc.game.*;
 import java.awt.*;
 import java.awt.geom.*;
 import java.awt.image.BufferedImage;
@@ -19,18 +19,16 @@ public class PlayerSprite1 /*implements SolidObject*/ {
     private Image avatar1;
     private Image avatar2;
     */
-
-    private int x,y;
-    private int playerID;
+    
+   // private int playerID;
 
     //private ImageIcon image, image2;
 
+    private boolean allTapped;
     private int points;
 
 
-    public PlayerSprite1(int x, int y){
-        this.x = x;
-        this.y = y;
+    public PlayerSprite1(){
         points = 0;
 
         /*
@@ -50,7 +48,7 @@ public class PlayerSprite1 /*implements SolidObject*/ {
 
         }
 
-        */
+        
 
     public void drawObject(Graphics g2d, AffineTransform reset, int id){
         playerID = id;
@@ -58,15 +56,22 @@ public class PlayerSprite1 /*implements SolidObject*/ {
             /*
             avatar = avatar1;
             g2d.drawImage(avatar, x, y, null);
-*/
+
         }
 
         if(playerID == 2){
-            /*
+            
             avatar = avatar2;
             g2d.drawImage(avatar, x, y, null);
-*/
+
         }
+    }
+    */
+    
+    public void getPoint(){
+        if (allTapped == true)
+            points += 1;
+            
     }
 
     /*
